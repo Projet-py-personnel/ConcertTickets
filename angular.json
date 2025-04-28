@@ -34,12 +34,23 @@
               {
                 "glob": "**/*",
                 "input": "public"
-              }
+              },
+              "src/assets",
+              "src/favicon.ico"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/animate.css",
+              "src/assets/css/tiny-slider.css",
+              "src/assets/css/bootstrap-5.0.0-beta1.min.css",
+              "src/assets/css/style.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/bootstrap.bundle-5.0.0-beta1.min.js",
+              "src/assets/js/tiny-slider.js",
+              "src/assets/js/wow.min.js",
+              "src/assets/js/main.js"
+            ]
           },
           "configurations": {
             "production": {
